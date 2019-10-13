@@ -1,0 +1,6 @@
+.body{display: flex;}
+.body .left_side{flex: 1; background: #ddd;}
+.body .center_side{flex: 4; background: #aaa;}
+.body .desc{display: flex;}
+.body .desc p:first-child{flex:3; font-size:1.5em;}
+.body .desc p:last-child{flex:1; font-size:1em; text-align: right; line-height: 40px;}

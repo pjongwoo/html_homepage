@@ -1,0 +1,4 @@
+.body{display: flex;}
+.body .left_side{flex: 1; background: #ddd;}
+.body .center_side{flex: 3; background: #aaa;}
+.body .right_side{flex: 1; background: #ff6600;}

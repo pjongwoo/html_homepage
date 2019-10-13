@@ -1,0 +1,13 @@
+body{width: 1200px; margin: 0 auto;}
+.header{height:111px; display: flex;}
+#logo{width:300px; flex: 1;}
+#logo > img{width:300px}
+#gnb{flex:3;}
+#gnb > ul{display: flex;}
+#gnb > ul > li{flex: 1; line-height: 111px; height: 111px; text-align: center;}
+.box{display: block; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25); margin-bottom:1.5em; text-align: center; border:1px solid #00ff00; transition: all 0.2s ease; padding:1em;}
+.box:HOVER{background-color: rgba(255, 0, 0, 0.075); border:1px solid #ff0000;}
+.box img, .box iframe{width:100%;}
+.box h3{margin:1em;}
+
+p{font-size: 30px;}
