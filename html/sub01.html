@@ -2,45 +2,116 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>역전 야매요리! - 당근 손질법</title>
+    <title>역전 야매요리!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../templated-projection/assets/css/main.css" />
     <link rel="stylesheet" href="../css/reset.css"></link>
     <link rel="stylesheet" href="../css/common.css"></link>
+    <link rel="stylesheet" href="../css/main.css"></link>
     <link rel="stylesheet" href="../css/sub.css"></link>
 </head>
 <body>
    <div class="wrap">
-       <div class="header">
-           <div id="logo">
-               <img src="../img/logo.jpeg"/>
+       <!-- Header -->
+			<div class="header">
+               <div id="logo">
+                   <img src="../img/logo.jpeg"/>
+               </div>
+               <div id="gnb">
+                   <ul>
+                       <li><a href="#">식재료</a></li>
+                       <li><a href="#">레시피</a></li>
+                       <li><a href="#">음식토크</a></li>
+                       <li><a href="#">챌린지</a></li>
+                       <li><a href="#">공동구매</a></li>
+                   </ul>
+               </div>
            </div>
-           <div id="gnb">
-               <ul>
-                   <li><a href="#">식재료</a></li>
-                   <li><a href="#">레시피</a></li>
-                   <li><a href="#">음식토크</a></li>
-                   <li><a href="#">챌린지</a></li>
-                   <li><a href="#">공동구매</a></li>
-               </ul>
-           </div>
-       </div>
+           <header id="header">
+				<div class="inner">
+					<a href="main.html" class="logo"><strong>역전!</strong> 야매요리</a>
+					<nav id="nav">
+						<a href="sub01.html">식재료</a>
+						<a href="#">레시피</a>
+						<a href="#">음식토크</a>
+						<a href="#">음식토크</a>
+                        <a href="#">음식토크</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
        <div class="body">
            <div class="left_side">
-             <ul class="snb">
-                 <li>당근</li>
-                 <li>양파</li>
-             </ul>
+              <div class="box over">
+                  <img src="../img/ca01.png"/>
+                  <p>당근손질법</p>
+              </div>
+              <div class="box over">
+                  <img src="../img/on01.png"/>
+                  <p>양파손질법</p>
+              </div>
+              <div class="box over">
+                  <img src="../img/po01.jpeg"/>
+                  <p>감자손질법</p>
+              </div>
+              <div class="ranking">
+                  <p>주간 레시피 순위</p>
+                  <a>김밥</a>
+                  <a>궁중떡볶이</a>
+                  <a>닭볶음탕</a>
+              </div>
            </div>
            <div class="center_side">
-               <div class="desc">
-                   <p>당근손질법을 익힐 수 있습니다.</p>
-                   <p>식재료 > 당근</p>
-               </div>
              <div class="box">
+               <h3>당근 손질법</h3>
+               <div class="card">
+                   <img src="../img/ca01.png"/>
+                   <p>흐르는물에 세척</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca02.png"/>
+                   <p>편썰기(무침, 볶음용)</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca03.png"/>
+                   <p>곱게다지기(볶음밥용)</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca04.png"/>
+                   <p>굵직하게 다지기(카레용)</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca05.png"/>
+                   <p>링썰기(샐러드용)</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca06.png"/>
+                   <p>채썰기(잡채, 볶음용)</p>
+               </div>
+                 <div class="card">
+                   <img src="../img/ca07.png"/>
+                   <p>모서리깍기(찜용)</p>
+               </div>
+               <div class="card">
+                   <img src="../img/ca08.png"/>
+                   <p>원하는대로 손질하세요!</p>
+               </div>
+              </div>
+             <div class="box">
+               <h3>야매요리 - 김밥</h3>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCukk1pNLIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h3>김밥만들기</h3>
+              </div>
+              <div class="box">
+                <h3>당신도 요리할 수 있다! 유후~~</h3>
+                <img src="../img/main01.jpeg"/>
               </div>
            </div>
        </div>
    </div>
+   <!-- Scripts -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/skel.min.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
