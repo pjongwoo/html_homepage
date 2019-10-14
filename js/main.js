@@ -28,6 +28,10 @@
 					$body.removeClass('is-loading');
 				}, 100);
 			});
+        
+        $(".btn_box").on('click',function(){
+            console.log("aa");
+        });
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {

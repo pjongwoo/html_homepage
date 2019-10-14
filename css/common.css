@@ -9,7 +9,8 @@ body{width: 1200px; margin: 0 auto;}
 #gnb > ul > li:HOVER > a{color:#fff;}
 .box{display: block; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25); margin-bottom:1.5em; text-align: center; transition: all 0.2s ease; padding:1em 0;}
 .box.over:HOVER{background-color: rgba(255, 0, 0, 0.075); border:1px solid #ff0000;}
-.box img, .box iframe{width:100%;}
+.box img{width:100%; height:auto;}
+.box iframe{width:100%;}
 .box h3{margin:1em;}
 
 .image > img{width:150px; height:150px;}

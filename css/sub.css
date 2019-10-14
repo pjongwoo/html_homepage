@@ -11,13 +11,14 @@
 .body .ranking a:nth-child(4):after{content: '3';}
 .body .ranking a:after{position: absolute; top:-1px; left:-4px; width: 22px; height:26px; background: #28b970; border-radius: 20px; color:#fff; padding-left:7px;}
 
-.card{width:30%; display: inline-block; height:150px;}
-.card p{font-size:0.7em;}
+.card{width:30%; display: inline-table; height:186px;}
+.card img{height:150px;}
+.card p{font-size:0.7em; height:36px;}
 
 @media screen and (max-width: 1200px){
     .wrap{padding-top:100px;}
 }
 
 @media screen and (max-width: 960px){
-    .card{width:45%; display: inline-block; height:150px;}
+    .card{width:45%; height:186px;}
 }
