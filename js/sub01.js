@@ -5,7 +5,7 @@ $(function() {
    
     $(".btn_box").on('click',function(e){
         e.preventDefault();
-        var box_index = $(this).index();
+        var box_index = $(this).index() - 1;
         $('.box_detail').css("display","none");
         $('.box_detail').eq(box_index).css("display","block");
     });

@@ -1,8 +1,9 @@
 
 #header{background: rgba(75, 75, 93, 0.85);}
 .body{display: flex;}
-.body .left_side{flex: 1; padding: 0 1em;}
-.body .center_side{flex: 3; border: 1px solid #ddd; border-top: 0px; border-bottom:0px; padding: 0 1em;}
+.body .left_side{flex: 1;}
+.body .left_side .box_area{padding: 0 1em; border:1px solid #ddd;}
+.body .center_side{flex: 3; padding: 0 1em;}
 .body .ranking{display: block; padding:1em 0;}
 .body .ranking p{font-size:1.2em; margin-bottom:0.5em;}
 .body .ranking a{display: block; position: relative; padding-left:20px; padding-bottom:0.2em;}
