@@ -265,7 +265,9 @@
 	}
 
 		@media screen and (max-width: 1680px) {
-
+            body{
+                margin:0 auto;
+            }
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
